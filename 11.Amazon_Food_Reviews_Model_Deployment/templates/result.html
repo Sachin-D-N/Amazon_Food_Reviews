@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+        <title>Amazon Food Reviews Sentiment Analyser</title>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='food-favicon.ico') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+		<script src="https://kit.fontawesome.com/5f3f547070.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<!-- Website Title -->
+    	<div class="container">
+            <h2 class='container-heading'><span class="heading_font">Amazon_Food_Rewiews</span> Sentiment Analysis</h2>
+            <div class='description'>
+    			<p>A Machine Learning Web App, Built with Flask, Deployed using Heroku.</p>
+    		</div>
+    	</div>
+
+		<!-- Result -->
+		<div class="results">
+			{% if prediction==1 %}
+				<h1><span class='safe'>Great! This is a POSITIVE Review</span></h1>
+				<img class="gif" src="{{ url_for('static', filename='positive-review.webp') }}" alt="Positive Review">
+			{% elif prediction==0 %}
+				<h1><span class='danger'>Oops! This is a NEGATIVE Review</span></h1>
+				<img class="gif" src="{{ url_for('static', filename='negative-review.webp') }}" alt="Negative Review">
+			{% endif %}
+		</div>
+
+		<!-- Footer -->
+		<div class='footer'>
+            <div class="contact">
+                <a target="_blank" href="https://github.com/Sachin-D-N/Amazon_Food_Reviews/tree/main/11.Amazon_Food_Reviews_Model_Deployment"><i class="fab fa-github fa-lg contact-icon"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/sachin-d-n-1st-8150351b2"><i class="fab fa-linkedin fa-lg contact-icon"></i></a>
+            </div>
+            <p class='footer-description'>Implemented by Sachin D N</p>
+        </div>
+
+	</body>
+</html>
