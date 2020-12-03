@@ -77,7 +77,7 @@ After applying KNN algorithm to amazon food reviews data set we make below concl
 
 ## Task 03. Apply NaiveBayes to Amazon_Food_reviews_Dataset
 
-![Naive_bayes](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLak8IWF3CqnkPQkQ2aMvQ4FOPA5McZsOw_g&usqp=CAU)
+![Naive_bayes](https://cdn.educba.com/academy/wp-content/uploads/2019/04/Naive-Bayes-Algorithm.jpg)
 
 ### Apply Multinomial NaiveBayes on these feature sets
 - Review text, preprocessed one converted into vectors using (BOW)
@@ -103,7 +103,7 @@ After applying Naive Bayes  algorithm to amazon food reviews data set we make be
 
 ## Task 04. Implementation_of_Stochastic_Gradient_Descent
 
-![graient descent](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0fvWxhWhEU1OPv-3vqm0yZDR6_xWZfjsmpA&usqp=CAU)
+![graient descent](https://d2o2utebsixu4k.cloudfront.net/media/images/aa76a582-a221-4fd8-9ad1-4fdd3ba91397.jpg)
 
 ### Apply SGD Regressor from scratch
 
