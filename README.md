@@ -215,3 +215,36 @@ After applying Decision Tree  algorithm to Amazon_food_reviews data set we make 
 1. Compare to all other features representation, Bag of words features with Depth of 50 and min_split of 500 are getting the highest 80.65% AUC scores on Test data.
 2. The optimal Depth and Min_split values from Grid_search_CV are different from model to model.
 
+## Task 08. Apply Random_Forest to Amazon_Food_Reviews_Dataset
+[ensemble](https://miro.medium.com/max/700/0*qKfYwZGpJtQsjXKS.jpeg)
+
+### Apply Random Forests & GBDT on these feature sets
+- Review text, preprocessed one converted into vectors using (BOW)
+- Review text, preprocessed one converted into vectors using (TFIDF)
+- Review text, preprocessed one converted into vectors using (AVG W2v)
+- Review text, preprocessed one converted into vectors using (TFIDF W2v)
+
+Commonly, the individual model suffers from bias or variances and that’s why we need ensemble learning.
+
+An Ensemble method is a technique that combines the predictions from multiple machine learning algorithms together to make more accurate predictions than any individual model. A model comprised of many models is called an Ensemble model.
+
+Random forest is a Supervised Learning algorithm that uses an ensemble learning method for classification and regression.
+
+Random forest is a bagging technique. The trees in random forests are run in parallel. There is no interaction between these trees while building the trees.
+
+It operates by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees.
+
+A random forest is a meta-estimator (i.e. it combines the result of multiple predictions) which aggregates many decision trees, with some helpful modifications.
+
+To Know detailed information about Ensemble models and implementation  please visit my medium blog link here https://medium.com/analytics-vidhya/random-forest-and-ensembles-learning-with-amazon-food-reviews-e58c72c189be
+
+After applying Random Forest  algorithm to Amazon_food_reviews data set we make below conclusions.
+
+### Conclusions
+
+![conclusion](https://miro.medium.com/max/679/1*J1iY59_aVC75CFl7tekbZg.png)
+
+1. From the above table, we conclude that TFIDF in Random Forest with an optimal depth of 60 and optimal estimator of 500 have the Highest AUC score i.e 93.40 %.
+2. xgboost also TFIDF with an optimal depth of 10 and optimal estimator of 500 have the Highest AUC score i.e 93.96 %.
+3. Both Random Forest and xgboost models have performed reasonably well on Test data.
+
