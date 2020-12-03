@@ -161,3 +161,29 @@ After applying Logistic_Regression  algorithm to Amazon_food_reviews data set we
 1. Compare to Bag of words features representation, TFIDF features with L2 Regularization are getting the highest 93.25% AUC score on Test data.
 2. The C values are different from model to model.
 
+## Task 06. Apply Support_Vector_Machines to Amazon_Food_Reviews_Dataset
+
+![svm](https://www.learnopencv.com/wp-content/uploads/2018/07/support-vector-machine-cover.jpg)
+
+### Apply SVM on these feature sets
+- Review text, preprocessed one converted into vectors using (BOW)
+- Review text, preprocessed one converted into vectors using (TFIDF)
+- Review text, preprocessed one converted into vectors using (AVG W2v)
+- Review text, preprocessed one converted into vectors using (TFIDF W2v)
+
+SVM is a supervised Machine Learning algorithm that is used in many classifications and regression problems. It still presents as one of the most used robust prediction methods that can be applied to many use cases involving classifications.
+
+Logistic Regression doesn’t care whether the instances are close to the decision boundary. Therefore, the decision boundary it picks may not be optimal. If a point is far from the decision boundary, we may be more confident in our predictions.Therefore, the optimal decision boundary should be able to maximize the distance between the decision boundary and all instances. i.e., maximize the margins. That’s why the SVMs algorithm is important!Find a Hyperplane that separates Positive points from Negative points as wide as possible.
+
+The support vector machine works by finding an optimal separation line called a ‘hyperplane’ to accurately separate 2 or more different classes in a classification problem. The goal is to find the optimal hyperplane separation through training the linearly separable data with the SVM algorithm.
+
+To Know detailed information about Support Vector Machines and implementation  please visit my medium blog link here https://medium.com/analytics-vidhya/support-vector-machines-with-amazon-food-reviews-9fe0428e09ef
+
+After applying Support Vector Machines  algorithm to Amazon_food_reviews data set we make below conclusions.
+
+### Conclusions
+
+![conclusion](https://miro.medium.com/max/700/1*XKxT7IiMbpnXrkj0N-dFIQ.png)
+
+1. Compare to Bag of words features representation, TFIDF features with L2 Regularization are getting the highest 93.29% AUC score on Test data.
+2. The C and Gamma values are different from model to model.
