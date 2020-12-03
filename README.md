@@ -101,3 +101,33 @@ After applying Naive Bayes  algorithm to amazon food reviews data set we make be
 2. Both are having 0.1 as the best alpha by Hyperparameter tuning.
 3. Both models have reasonably worked well for Amazon_food_reviews classification.
 
+## Task 04. Implementation_of_Stochastic_Gradient_Descent
+
+![graient descent](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0fvWxhWhEU1OPv-3vqm0yZDR6_xWZfjsmpA&usqp=CAU)
+
+### Apply SGD Regressor from scratch
+
+1. Take the boston data set from sklearn.
+2. Write the SGDRegressor from scratch.
+3. You don’t need to split the data into train and test, you consider whole data for this implementation.
+4. Get weights( coefs_ and intercept ) from your model and the MSE value.
+5. Don’t forget to standardize the data, and choose appropriate learning rate.
+6. Train your model using SGDRegressor with the same parameters, and find the MSE on the same data.
+7. Compare these two results.
+8. You can choose any other metric other than MSE to compare them. They both should be same.
+
+The solution to an optimization problem can be done by selecting different methods. Moreover, the user can navigate on the surface or curve to establish an initial point and find the optimal or critical point, which can be observed on the plotted function.
+
+Some functions are very complex to solve, so the computer science technique to solve those types of functions is the Gradient descent algorithm.
+
+Gradient descent is an optimization algorithm that is mainly used to find the minimum of a function. In machine learning, gradient descent is used to update parameters in a model. Parameters can vary according to the algorithms.
+
+To Know detailed information about Gradient_Descent and implementation  please visit my medium blog link here https://medium.com/analytics-vidhya/solving-for-optimization-problems-fee1e7ee5d22
+
+After applying Gradient_Descent  algorithm to boston data set we make below conclusions.
+
+![conclusion](https://miro.medium.com/max/700/1*fudzwFus59rd0wZgcZdmSA.png)
+
+As from the above, we can see that mean of the differences in the prediction of the two models is at 0 As we can see above intercept and weight(coef) is almost same for sklearn SGD and self-implemented SGD.
+
+
