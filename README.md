@@ -41,7 +41,7 @@ Given a review, determine whether the review is positive (Rating of 4 or 5) or n
 
 [Ans] We could use the Score/Rating. A rating of 4 or 5 could be cosnidered a positive review. A review of 1 or 2 could be considered negative. A review of 3 is nuetral and ignored. This is an approximate and proxy way of determining the polarity (positivity/negativity) of a review.
 
-To Know the Complete overview of the Amazon Food review dataset and Featurization visit my medium blog  https://medium.com/analytics-vidhya/amazon-fine-food-reviews-featurization-with-natural-language-processing-a386b0317f56
+To Know the Complete overview of the Amazon Food review dataset and Featurization visit my [medium blog](https://medium.com/analytics-vidhya/amazon-fine-food-reviews-featurization-with-natural-language-processing-a386b0317f56)
 
 ## Task 02. Apply KNN to Amazon_Food_Reviews_Dataset
 
@@ -60,9 +60,9 @@ KNN is one of the most simple and traditional non-parametric techniques to class
 
 The lazy algorithm means it does not need any training data points for model generation. All training data used in the testing phase. This makes training faster and the testing phase slower and costlier. The costly testing phase means time and memory. In the worst case, KNN needs more time to scan all data points, and scanning all data points will require more memory for storing training data.
 
-To Know how K-NN works visit my medium blog link here https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4.
+To Know how K-NN works visit my [Medium blog here](https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4).
 
-To Know detailed information about performance metrics used in Machine Learning please visit my medium blog link here https://medium.com/analytics-vidhya/performance-metrics-for-machine-learning-models-80d7666b432e.
+To Know detailed information about performance metrics used in Machine Learning please visit my [Medium blog here](https://medium.com/analytics-vidhya/performance-metrics-for-machine-learning-models-80d7666b432e).
 
 After applying KNN algorithm to amazon food reviews data set we make below conclusions.
 
@@ -89,7 +89,7 @@ Naive Bayes is the most straightforward and fast classification algorithm, which
 
 Naive Bayes makes an assumption that features are conditionally independent. Theoretically, if the assumption does not hold true then the performance of NB degrades. But the research has shown that even if there is some feature dependency the Naive Bayes gives the best result.
 
-To Know detailed information about NaiveBayes algorithm and implementation  please visit my medium blog link here https://medium.com/analytics-vidhya/naive-bayes-algorithm-with-amazon-food-reviews-analysis-66bb59b66e62
+To Know detailed information about NaiveBayes algorithm and implementation  please visit my [Medium blog](https://medium.com/analytics-vidhya/naive-bayes-algorithm-with-amazon-food-reviews-analysis-66bb59b66e62)
 
 After applying Naive Bayes  algorithm to amazon food reviews data set we make below conclusions.
 
@@ -122,7 +122,7 @@ Some functions are very complex to solve, so the computer science technique to s
 
 Gradient descent is an optimization algorithm that is mainly used to find the minimum of a function. In machine learning, gradient descent is used to update parameters in a model. Parameters can vary according to the algorithms.
 
-To Know detailed information about Gradient_Descent and implementation  please visit my medium blog link here https://medium.com/analytics-vidhya/solving-for-optimization-problems-fee1e7ee5d22
+To Know detailed information about Gradient_Descent and implementation  please visit my [Medium blog](https://medium.com/analytics-vidhya/solving-for-optimization-problems-fee1e7ee5d22)
 
 After applying Gradient_Descent  algorithm to boston data set we make below conclusions.
 
@@ -150,7 +150,7 @@ Logistic Regression is one of the most simple and commonly used Machine Learning
 
 Its basic fundamental concepts are also constructive in deep learning. Logistic regression describes and estimates the relationship between one dependent binary variable and independent variables.
 
-To Know detailed information about Logistic_Regression and implementation  please visit my medium blog link here https://medium.com/analytics-vidhya/logistic-regression-with-amazon-food-reviews-164b3748335e
+To Know detailed information about Logistic_Regression and implementation  please visit my [Medium blog](https://medium.com/analytics-vidhya/logistic-regression-with-amazon-food-reviews-164b3748335e)
 
 After applying Logistic_Regression  algorithm to Amazon_food_reviews data set we make below conclusions.
 
@@ -177,7 +177,7 @@ Logistic Regression doesn’t care whether the instances are close to the decisi
 
 The support vector machine works by finding an optimal separation line called a ‘hyperplane’ to accurately separate 2 or more different classes in a classification problem. The goal is to find the optimal hyperplane separation through training the linearly separable data with the SVM algorithm.
 
-To Know detailed information about Support Vector Machines and implementation  please visit my medium blog link here https://medium.com/analytics-vidhya/support-vector-machines-with-amazon-food-reviews-9fe0428e09ef
+To Know detailed information about Support Vector Machines and implementation  please visit my [Medium blog](https://medium.com/analytics-vidhya/support-vector-machines-with-amazon-food-reviews-9fe0428e09ef)
 
 After applying Support Vector Machines  algorithm to Amazon_food_reviews data set we make below conclusions.
 
@@ -204,7 +204,7 @@ Decision trees which are also modernly known as classification and regression tr
 
 One of the best and most used supervised learning methods are tree-based algorithms. They empower predictive modeling with higher accuracy, better stability, and provide ease of interpretation. Unlike linear modeling techniques, they map non-linear relationships quite well. Methods like decision trees, random forest, gradient boosting are being popularly used in all kinds of data science problems. Hence, for every analyst, it’s important to learn these algorithms and apply them at the time of modeling.
 
-To Know detailed information about Decision Tree and implementation  please visit my medium blog link here https://medium.com/analytics-vidhya/decision-tree-with-amazon-food-reviews-5639a7b70cef
+To Know detailed information about Decision Tree and implementation  please visit my [Medium blog](https://medium.com/analytics-vidhya/decision-tree-with-amazon-food-reviews-5639a7b70cef)
 
 After applying Decision Tree  algorithm to Amazon_food_reviews data set we make below conclusions.
 
@@ -236,7 +236,7 @@ It operates by constructing a multitude of decision trees at training time and o
 
 A random forest is a meta-estimator (i.e. it combines the result of multiple predictions) which aggregates many decision trees, with some helpful modifications.
 
-To Know detailed information about Ensemble models and implementation  please visit my medium blog link here https://medium.com/analytics-vidhya/random-forest-and-ensembles-learning-with-amazon-food-reviews-e58c72c189be
+To Know detailed information about Ensemble models and implementation  please visit my [medium blog link here](https://medium.com/analytics-vidhya/random-forest-and-ensembles-learning-with-amazon-food-reviews-e58c72c189be)
 
 After applying Random Forest  algorithm to Amazon_food_reviews data set we make below conclusions.
 
@@ -248,4 +248,4 @@ After applying Random Forest  algorithm to Amazon_food_reviews data set we make 
 2. xgboost also TFIDF with an optimal depth of 10 and optimal estimator of 500 have the Highest AUC score i.e 93.96 %.
 3. Both Random Forest and xgboost models have performed reasonably well on Test data.
 
-[sachin](https://miro.medium.com/max/679/1*J1iY59_aVC75CFl7tekbZg.png)
+
