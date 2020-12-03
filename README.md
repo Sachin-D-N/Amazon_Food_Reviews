@@ -216,7 +216,7 @@ After applying Decision Tree  algorithm to Amazon_food_reviews data set we make 
 2. The optimal Depth and Min_split values from Grid_search_CV are different from model to model.
 
 ## Task 08. Apply Random_Forest to Amazon_Food_Reviews_Dataset
-[ensemble](https://miro.medium.com/max/700/0*qKfYwZGpJtQsjXKS.jpeg)
+![ensemble](https://miro.medium.com/max/700/0*qKfYwZGpJtQsjXKS.jpeg)
 
 ### Apply Random Forests & GBDT on these feature sets
 - Review text, preprocessed one converted into vectors using (BOW)
