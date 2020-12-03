@@ -301,5 +301,63 @@ After applying Clustering Methods  to Amazon_food_reviews data set we make below
 4. And at the end we applied DBSCAN on Avg-W2vec and TFIDF-W2vec, for optimal eps we first calculated the nth distance from each point, sorted them and plotted the curve between points and distances and the again we applied elbow method to figure out the best eps(At point of inflexion).
 
 
+## Task 10. Apply Truncated_SVD to Amazon_Food_Reviews_Datasets
+
+![svd](https://miro.medium.com/max/700/0*Kik_29u0aNSWCsux)
+
+### Apply Truncated-SVD on only this feature set
+- Review text, preprocessed one converted into vectors using (TFIDF)
+
+Linear algebra bridges the gap between theory and practical implementation of concepts. A healthy understanding of linear algebra opens doors to machine learning algorithms we thought were impossible to understand. And one such use of linear algebra is in Singular Value Decomposition (SVD) for dimensionality reduction.
+
+![svd](https://miro.medium.com/max/700/0*qWhMvb4nemrCJie3.jpg)
+
+##### Singular vectors & singular values
+The matrix AAᵀ and AᵀA are very special in linear algebra.Consider any m × n matrix A, we can multiply it with Aᵀ to form AAᵀ and AᵀA separately.
+These matrices are
+
+- symmetrical
+- square
+- at least positive semidefinite (eigenvalues are zero or positive),
+- both matrices have the same positive eigenvalues, and
+- both have the same rank r as A.
+
+In addition, the covariance matrices that we often use in ML are in this form. Since they are symmetric, we can choose its eigenvectors to be orthonormal (perpendicular to each other with unit length).
+
+![svd](https://miro.medium.com/max/700/1*fDMLG40hhRi4gkQBiPPk5w.jpeg)
+
+Let’s introduce some terms that frequently used in SVD. We name the eigenvectors for AAᵀ as uᵢ and AᵀA as vᵢ here and call these sets of eigenvectors u and v the singular vectors of A. Both matrices have the same positive eigenvalues. The square roots of these eigenvalues are called singular values.
+
+Not too many explanations so far but let’s put everything together first and the explanations will come next. We concatenate vectors uᵢ into U and vᵢ into V to form orthogonal matrices.
+
+![svd](https://miro.medium.com/max/700/1*WNk8KMCbWeEg8rvNBM2gpg.gif)
+
+Since these vectors are orthonormal, it is easy to prove that U and V obey
+
+![svd](https://miro.medium.com/max/700/1*OoMBe1LoSziciLoWpzGAdQ.jpeg)
+
+###### Applications of Singular Value Decomposition (SVD)
+- Image Compression
+- Image Recovery
+- Eigenfaces
+- Spectral Clustering
+- Background Removal from Videos
+
+To Know detailed information about SVD  please visit [here](https://jonathan-hui.medium.com/machine-learning-singular-value-decomposition-svd-principal-component-analysis-pca-1d45e885e491)
+
+### Observations and Conclusions
+1. First we figured our top 3000 words using tfidf score built a co-occurence matrix from those words
+
+2. After applying truncated svd on it we found our optimal n_components to be 49 since it covers 99.50% of explained variance obtained.
+
+3. Then we applied kmeans on using optimal svd values and found our best n_cluster value equal to 3 using elbow method.
+
+ ![Untitled](https://user-images.githubusercontent.com/67965686/101048572-bc9b3c00-35a8-11eb-8dab-cf9137759fb3.png)
+
+4. After that we plotted wordcloud for each clusters and found in some clusters there are few words and at the end we generated a function which return most similar words using cosine similarity of co-occurence matrix.
+
+ ![Untitled](https://user-images.githubusercontent.com/67965686/101048805-f409e880-35a8-11eb-80e3-9c98253e0822.png)
+
+
 
 
