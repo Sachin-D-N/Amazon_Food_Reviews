@@ -40,6 +40,7 @@ Given a review, determine whether the review is positive (Rating of 4 or 5) or n
 [Ans] We could use the Score/Rating. A rating of 4 or 5 could be cosnidered a positive review. A review of 1 or 2 could be considered negative. A review of 3 is nuetral and ignored. This is an approximate and proxy way of determining the polarity (positivity/negativity) of a review.
 
 
-I written a blog in that blog i am explained Featurization techniques for text data to read visit my medium blog here https://medium.com/analytics-vidhya/amazon-fine-food-reviews-featurization-with-natural-language-processing-a386b0317f56.
+I written a blog in that blog i am explained Featurization techniques for text data to read visit my [medium blog][1] here.
+[1]: https://medium.com/analytics-vidhya/amazon-fine-food-reviews-featurization-with-natural-language-processing-a386b0317f56 "medium blog"
 
 
