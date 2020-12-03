@@ -3,7 +3,7 @@ In this repository, I am practiced and implemented various machine learning algo
 
 ![Amazon_Food_Reviews](https://miro.medium.com/max/523/1*bXDiOoCFTSJJdTQ7JbuijQ.png)
 
-## 01. Amazon_Food_Reviews_Featurization
+## Task 01. Amazon_Food_Reviews_Featurization
 
 ### First We want to know What is Amazon Fine Food Review Analysis?
 This dataset consists of reviews of fine foods from amazon. The data span a period of more than 10 years, including all ~500,000 reviews up to October 2012. Reviews include product and user information, ratings, and a plaintext review. We also have reviews from all other Amazon categories.
@@ -40,3 +40,21 @@ Given a review, determine whether the review is positive (Rating of 4 or 5) or n
 [Ans] We could use the Score/Rating. A rating of 4 or 5 could be cosnidered a positive review. A review of 1 or 2 could be considered negative. A review of 3 is nuetral and ignored. This is an approximate and proxy way of determining the polarity (positivity/negativity) of a review.
 
 To know data analysis and Featurization techniques visit my medium blog https://medium.com/analytics-vidhya/amazon-fine-food-reviews-featurization-with-natural-language-processing-a386b0317f56
+
+## Task 02.KNN_Amazon_Food_Reviews
+
+![knn](https://miro.medium.com/max/700/0*QPWeWP5FWVMlXNgu.png)
+
+##### Apply Knn(brute force version) on these feature sets
+- Review text, preprocessed one converted into vectors using (BOW)
+- Review text, preprocessed one converted into vectors using (TFIDF)
+- Review text, preprocessed one converted into vectors using (AVG W2v)
+- Review text, preprocessed one converted into vectors using (TFIDF W2v)
+
+
+KNN is a non-parametric and lazy learning algorithm. Non-parametric means there is no assumption for underlying data distribution. In other words, the model structure determined from the dataset. This will be very helpful in practice where most of the real-world datasets do not follow mathematical theoretical assumptions.
+
+KNN is one of the most simple and traditional non-parametric techniques to classify samples. Given an input vector, KNN calculates the approximate distances between the vectors and then assign the points which are not yet labeled to the class of its K-nearest neighbors.
+
+The lazy algorithm means it does not need any training data points for model generation. All training data used in the testing phase. This makes training faster and the testing phase slower and costlier. The costly testing phase means time and memory. In the worst case, KNN needs more time to scan all data points, and scanning all data points will require more memory for storing training data.
+
