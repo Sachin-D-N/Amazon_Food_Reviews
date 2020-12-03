@@ -248,3 +248,4 @@ After applying Random Forest  algorithm to Amazon_food_reviews data set we make 
 2. xgboost also TFIDF with an optimal depth of 10 and optimal estimator of 500 have the Highest AUC score i.e 93.96 %.
 3. Both Random Forest and xgboost models have performed reasonably well on Test data.
 
+[sachin](https://miro.medium.com/max/679/1*J1iY59_aVC75CFl7tekbZg.png)
