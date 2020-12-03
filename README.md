@@ -126,8 +126,38 @@ To Know detailed information about Gradient_Descent and implementation  please v
 
 After applying Gradient_Descent  algorithm to boston data set we make below conclusions.
 
+### Conclusions
+
 ![conclusion](https://miro.medium.com/max/700/1*fudzwFus59rd0wZgcZdmSA.png)
 
 As from the above, we can see that mean of the differences in the prediction of the two models is at 0 As we can see above intercept and weight(coef) is almost same for sklearn SGD and self-implemented SGD.
 
+## Task 05. Apply Logistic_Regression to Amazon_Food_Reviews_Dataset
+
+![Logistic regression](https://miro.medium.com/max/640/0*Zv8zeMeD-PZVSDYC.jpg)
+
+### Apply Logistic Regression on these feature sets
+- Review text, preprocessed one converted into vectors using (BOW)
+- Review text, preprocessed one converted into vectors using (TFIDF)
+- Review text, preprocessed one converted into vectors using (AVG W2v)
+- Review text, preprocessed one converted into vectors using (TFIDF W2v)
+
+Logistic regression is a classification algorithm used to assign observations to a discrete set of classes. There are lots of classification problems that are available, but the logistics regression is common and is a useful regression method for solving the binary classification problem.
+
+There are lots of classification problems that are available, but the logistics regression is common and is a useful regression method for solving the binary classification problem.
+
+Logistic Regression is one of the most simple and commonly used Machine Learning algorithms for two-class classification. It is easy to implement and can be used as the baseline for any binary classification problem.
+
+Its basic fundamental concepts are also constructive in deep learning. Logistic regression describes and estimates the relationship between one dependent binary variable and independent variables.
+
+To Know detailed information about Logistic_Regression and implementation  please visit my medium blog link here https://medium.com/analytics-vidhya/logistic-regression-with-amazon-food-reviews-164b3748335e
+
+After applying Logistic_Regression  algorithm to Amazon_food_reviews data set we make below conclusions.
+
+### Conclusions
+
+![conclusion](https://miro.medium.com/max/700/1*4mGAgDaEp78cuOTw5dxLWA.png)
+
+1. Compare to Bag of words features representation, TFIDF features with L2 Regularization are getting the highest 93.25% AUC score on Test data.
+2. The C values are different from model to model.
 
