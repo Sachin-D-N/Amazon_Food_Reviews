@@ -43,11 +43,11 @@ Given a review, determine whether the review is positive (Rating of 4 or 5) or n
 
 To Know the Complete overview of the Amazon Food review dataset and Featurization visit my medium blog  https://medium.com/analytics-vidhya/amazon-fine-food-reviews-featurization-with-natural-language-processing-a386b0317f56
 
-## Task 02.KNN_Amazon_Food_Reviews
+## Task 02. Apply KNN to Amazon_Food_Reviews_Dataset
 
 ![knn](https://miro.medium.com/max/700/0*QPWeWP5FWVMlXNgu.png)
 
-##### Apply Knn(brute force version) on these feature sets
+##### Apply Knn versions on these feature sets
 - Review text, preprocessed one converted into vectors using (BOW)
 - Review text, preprocessed one converted into vectors using (TFIDF)
 - Review text, preprocessed one converted into vectors using (AVG W2v)
@@ -64,7 +64,9 @@ To Know how K-NN works visit my medium blog link here https://medium.com/analyti
 
 To Know detailed information about performance metrics used in Machine Learning please visit my medium blog link here https://medium.com/analytics-vidhya/performance-metrics-for-machine-learning-models-80d7666b432e.
 
-#### Conclusions
+After applying KNN algorithm to amazon food reviews data set we make below conclusions.
+
+### Conclusions
 
 ![conclusion](https://miro.medium.com/max/569/1*6o-q6t2nK0AiqvwTVWNrWA.png)
 
@@ -73,6 +75,20 @@ To Know detailed information about performance metrics used in Machine Learning 
 3. The K-NN simple brute model of TF-IDF and Bag of words features also works reasonably well on test data having an AUC score of 81.34% and 80.18%.
 4. The Avg_Word2Vec and TFIDF_Word2vec are having a low AUC score on test data.
 
+## Task 03. Apply NaiveBayes to Amazon_Food_reviews_Dataset
 
+![Naive_bayes](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLak8IWF3CqnkPQkQ2aMvQ4FOPA5McZsOw_g&usqp=CAU)
+
+### Apply Multinomial NaiveBayes on these feature sets
+- Review text, preprocessed one converted into vectors using (BOW)
+- Review text, preprocessed one converted into vectors using (TFIDF)
+
+Naive Bayes is a statistical classification technique based on Bayes Theorem. It is one of the simplest supervised learning algorithms. Naive Bayes classifier is a fast, accurate, and reliable algorithm. Naive Bayes classifiers have high accuracy and speed on large datasets.
+
+Naive Bayes is the most straightforward and fast classification algorithm, which is suitable for a large chunk of data. Naive Bayes classifier is successfully used in various applications such as spam filtering, text classification, sentiment analysis, and recommender systems. It uses Bayes theorem of probability for prediction of unknown class.
+
+Naive Bayes makes an assumption that features are conditionally independent. Theoretically, if the assumption does not hold true then the performance of NB degrades. But the research has shown that even if there is some feature dependency the Naive Bayes gives the best result.
+
+To Know detailed information about NaiveBayes algorithm and implementation  please visit my medium blog link here https://medium.com/analytics-vidhya/naive-bayes-algorithm-with-amazon-food-reviews-analysis-66bb59b66e62
 
 
