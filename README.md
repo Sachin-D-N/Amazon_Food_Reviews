@@ -187,3 +187,31 @@ After applying Support Vector Machines  algorithm to Amazon_food_reviews data se
 
 1. Compare to Bag of words features representation, TFIDF features with L2 Regularization are getting the highest 93.29% AUC score on Test data.
 2. The C and Gamma values are different from model to model.
+
+## Task 07. Apply Decision_Tree to Amazon_Food_Reviews_Dataset
+
+![Decision_Tree](https://arbordayblog.org/wp-content/uploads/2017/09/japanese-maple-shade-tree-iStock-180454493-1080x608.jpg)
+
+### Apply Decision Trees on these feature sets
+- Review text, preprocessed one converted into vectors using (BOW)
+- Review text, preprocessed one converted into vectors using (TFIDF)
+- Review text, preprocessed one converted into vectors using (AVG W2v)
+- Review text, preprocessed one converted into vectors using (TFIDF W2v)
+
+Decision trees are a popular supervised learning method for a variety of reasons. The benefits of decision trees include that they can be used for both regression and classification, they are easy to interpret and they don’t require feature scaling. They have several flaws including being prone to overfitting.
+
+Decision trees which are also modernly known as classification and regression trees (CART) were introduced by Leo Breiman to refer, Decision Tree algorithms. They have a supervised learning algorithm that has a pre-defined target variable & they are mostly used in non-linear decision making with a simple linear decision surface. In other words, they are adaptable for solving any kind of problem at hand (classification or regression).
+
+One of the best and most used supervised learning methods are tree-based algorithms. They empower predictive modeling with higher accuracy, better stability, and provide ease of interpretation. Unlike linear modeling techniques, they map non-linear relationships quite well. Methods like decision trees, random forest, gradient boosting are being popularly used in all kinds of data science problems. Hence, for every analyst, it’s important to learn these algorithms and apply them at the time of modeling.
+
+To Know detailed information about Decision Tree and implementation  please visit my medium blog link here https://medium.com/analytics-vidhya/decision-tree-with-amazon-food-reviews-5639a7b70cef
+
+After applying Decision Tree  algorithm to Amazon_food_reviews data set we make below conclusions.
+
+### Conclusions
+
+![conclusion](https://miro.medium.com/max/514/1*3-g4jeREUkiPE8GvVffV0Q.png)
+
+1. Compare to all other features representation, Bag of words features with Depth of 50 and min_split of 500 are getting the highest 80.65% AUC scores on Test data.
+2. The optimal Depth and Min_split values from Grid_search_CV are different from model to model.
+
