@@ -3,6 +3,8 @@ In this repository, I am practiced and implemented various machine learning algo
 
 ![Amazon_Food_Reviews](https://miro.medium.com/max/523/1*bXDiOoCFTSJJdTQ7JbuijQ.png)
 
+## 01. Amazon_Food_Reviews_Featurization
+
 ### First We want to know What is Amazon Fine Food Review Analysis?
 This dataset consists of reviews of fine foods from amazon. The data span a period of more than 10 years, including all ~500,000 reviews up to October 2012. Reviews include product and user information, ratings, and a plaintext review. We also have reviews from all other Amazon categories.
 
@@ -36,4 +38,8 @@ Given a review, determine whether the review is positive (Rating of 4 or 5) or n
 [Q] How to determine if a review is positive or negative?
 
 [Ans] We could use the Score/Rating. A rating of 4 or 5 could be cosnidered a positive review. A review of 1 or 2 could be considered negative. A review of 3 is nuetral and ignored. This is an approximate and proxy way of determining the polarity (positivity/negativity) of a review.
+
+
+I written a blog in that blog i am explained Featurization techniques for text data to read visit my [medium blog] (https://medium.com/analytics-vidhya/amazon-fine-food-reviews-featurization-with-natural-language-processing-a386b0317f56)
+
 
