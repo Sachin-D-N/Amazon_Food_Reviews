@@ -41,6 +41,7 @@ Given a review, determine whether the review is positive (Rating of 4 or 5) or n
 
 
 I written a blog in that blog i am explained Featurization techniques for text data to read visit my [medium blog][1] here.
-[1]: https://medium.com/analytics-vidhya/amazon-fine-food-reviews-featurization-with-natural-language-processing-a386b0317f56 "medium blog"
+
+[1] : https://medium.com/analytics-vidhya/amazon-fine-food-reviews-featurization-with-natural-language-processing-a386b0317f56 "medium blog"
 
 
