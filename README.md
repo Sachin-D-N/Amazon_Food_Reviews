@@ -236,7 +236,7 @@ It operates by constructing a multitude of decision trees at training time and o
 
 A random forest is a meta-estimator (i.e. it combines the result of multiple predictions) which aggregates many decision trees, with some helpful modifications.
 
-To Know detailed information about Ensemble models and implementation  please visit my [medium blog link here](https://medium.com/analytics-vidhya/random-forest-and-ensembles-learning-with-amazon-food-reviews-e58c72c189be)
+To Know detailed information about Ensemble models and implementation  please visit my [Medium blog](https://medium.com/analytics-vidhya/random-forest-and-ensembles-learning-with-amazon-food-reviews-e58c72c189be)
 
 After applying Random Forest  algorithm to Amazon_food_reviews data set we make below conclusions.
 
@@ -247,5 +247,59 @@ After applying Random Forest  algorithm to Amazon_food_reviews data set we make 
 1. From the above table, we conclude that TFIDF in Random Forest with an optimal depth of 60 and optimal estimator of 500 have the Highest AUC score i.e 93.40 %.
 2. xgboost also TFIDF with an optimal depth of 10 and optimal estimator of 500 have the Highest AUC score i.e 93.96 %.
 3. Both Random Forest and xgboost models have performed reasonably well on Test data.
+
+## Task 09. Apply Clustering_Analysis to Amazon_Food_Reviews_Dataset
+![clustering](https://singularityhub.com/wp-content/uploads/2018/08/connected-artificial-neural-network-nodes_shutterstock_619552286.jpg)
+
+## Apply  Clustering Techniques on these feature sets:
+- Review text, preprocessed one converted into vectors using (BOW)
+- Review text, preprocessed one converted into vectors using (TFIDF)
+- Review text, preprocessed one converted into vectors using (AVG W2v)
+- Review text, preprocessed one converted into vectors using (TFIDF W2v)
+- Find the best ‘k’ using the elbow-knee method (plot k vs inertia_)
+- Once after you find the k clusters, plot the word cloud per each cluster so that at a single go we can analyze the words in a cluster.
+
+Clustering is a Machine Learning technique that involves the grouping of data points. Given a set of data points, we can use a clustering algorithm to classify each data point into a specific group. In theory, data points that are in the same group should have similar properties and/or features, while data points in different groups should have highly dissimilar properties and/or features. Clustering is a method of unsupervised learning and is a common technique for statistical data analysis used in many fields.
+
+In Data Science, we can use clustering analysis to gain some valuable insights from our data by seeing what groups the data points fall into when we apply a clustering algorithm.
+
+#### Clustering Methods :
+
+1. Density-Based Methods : These methods consider the clusters as the dense region having some similarity and different from the lower dense region of the space. These methods have good accuracy and ability to merge two clusters.Example DBSCAN (Density-Based Spatial Clustering of Applications with Noise) , OPTICS (Ordering Points to Identify Clustering Structure) etc.
+
+2. Hierarchical Based Methods : The clusters formed in this method forms a tree-type structure based on the hierarchy. New clusters are formed using the previously formed one. It is divided into two category
+- Agglomerative (bottom up approach)
+- Divisive (top down approach)
+
+3. Partitioning Methods : These methods partition the objects into k clusters and each partition forms one cluster. This method is used to optimize an objective criterion similarity function such as when the distance is a major parameter example K-means, CLARANS (Clustering Large Applications based upon Randomized Search) etc.
+
+4. Grid-based Methods : In this method the data space is formulated into a finite number of cells that form a grid-like structure. All the clustering operation done on these grids are fast and independent of the number of data objects example STING (Statistical Information Grid), wave cluster, CLIQUE (CLustering In Quest) etc.
+
+To Know detailed information about Clustering methods  please visit [here](https://cs.wmich.edu/alfuqaha/summer14/cs6530/lectures/ClusteringAnalysis.pdf)
+
+#### Wordclouds of clusters obtained after applying Clustering methods
+ 
+![Untitled](https://user-images.githubusercontent.com/67965686/101044191-1437a880-35a5-11eb-90fb-9b98c740e2d3.png)
+
+![Untitled](https://user-images.githubusercontent.com/67965686/101044320-36c9c180-35a5-11eb-93af-cadef927fae7.png)
+  
+![Untitled](https://user-images.githubusercontent.com/67965686/101044516-6ed10480-35a5-11eb-82ea-f92dac51ec7f.png)
+ 
+After applying Clustering Methods  to Amazon_food_reviews data set we make below conclusions.
+
+
+### Conclusions
+
+![Untitled](https://user-images.githubusercontent.com/67965686/101043504-675d2b80-35a4-11eb-9e64-7231ecd67bb8.png)
+
+1. For K means clustering we applied k-means for different value of k and selected optimal k with the help of elbow method from graph between inertia vs k.
+
+2. We sorted out top 5 features in each clusters of Bow and TFIDF vectorize.
+
+3. For agglomerative clustering we took n_clusters=[2,3] and applied algorithm on it and plotted the word cloud for each clusters.
+
+4. And at the end we applied DBSCAN on Avg-W2vec and TFIDF-W2vec, for optimal eps we first calculated the nth distance from each point, sorted them and plotted the curve between points and distances and the again we applied elbow method to figure out the best eps(At point of inflexion).
+
+
 
 
