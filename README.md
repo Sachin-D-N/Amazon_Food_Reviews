@@ -10,6 +10,8 @@ This dataset consists of reviews of fine foods from amazon. The data span a peri
 
 Amazon reviews are often the most publicly visible reviews of consumer products. As a frequent Amazon user, I was interested in examining the structure of a large database of Amazon reviews and visualizing this information so as to be a smarter consumer and reviewer.
 
+Source: https://www.kaggle.com/snap/amazon-fine-food-reviews
+
 ### Introduction
 
 The Amazon Fine Food Reviews dataset consists of reviews of fine foods from Amazon.
@@ -39,7 +41,7 @@ Given a review, determine whether the review is positive (Rating of 4 or 5) or n
 
 [Ans] We could use the Score/Rating. A rating of 4 or 5 could be cosnidered a positive review. A review of 1 or 2 could be considered negative. A review of 3 is nuetral and ignored. This is an approximate and proxy way of determining the polarity (positivity/negativity) of a review.
 
-To know data analysis and Featurization techniques visit my medium blog https://medium.com/analytics-vidhya/amazon-fine-food-reviews-featurization-with-natural-language-processing-a386b0317f56
+To Know the Complete overview of the Amazon Food review dataset and Featurization visit my medium blog  https://medium.com/analytics-vidhya/amazon-fine-food-reviews-featurization-with-natural-language-processing-a386b0317f56
 
 ## Task 02.KNN_Amazon_Food_Reviews
 
@@ -57,4 +59,20 @@ KNN is a non-parametric and lazy learning algorithm. Non-parametric means there 
 KNN is one of the most simple and traditional non-parametric techniques to classify samples. Given an input vector, KNN calculates the approximate distances between the vectors and then assign the points which are not yet labeled to the class of its K-nearest neighbors.
 
 The lazy algorithm means it does not need any training data points for model generation. All training data used in the testing phase. This makes training faster and the testing phase slower and costlier. The costly testing phase means time and memory. In the worst case, KNN needs more time to scan all data points, and scanning all data points will require more memory for storing training data.
+
+To Know how K-NN works visit my medium blog link here https://medium.com/analytics-vidhya/k-nearest-neighbors-algorithm-7952234c69a4.
+
+To Know detailed information about performance metrics used in Machine Learning please visit my medium blog link here https://medium.com/analytics-vidhya/performance-metrics-for-machine-learning-models-80d7666b432e.
+
+#### Conclusions
+
+![conclusion](https://miro.medium.com/max/569/1*6o-q6t2nK0AiqvwTVWNrWA.png)
+
+1. From the above table, we can conclude the for all the text features best_K by Hyperparameter tuning is 49.
+2. From the above table, we observed that the K-NN simple brute model of Word2vec features having the highest AUC score of 84.61% on test data.
+3. The K-NN simple brute model of TF-IDF and Bag of words features also works reasonably well on test data having an AUC score of 81.34% and 80.18%.
+4. The Avg_Word2Vec and TFIDF_Word2vec are having a low AUC score on test data.
+
+
+
 
