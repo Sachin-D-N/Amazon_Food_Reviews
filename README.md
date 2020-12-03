@@ -91,4 +91,13 @@ Naive Bayes makes an assumption that features are conditionally independent. The
 
 To Know detailed information about NaiveBayes algorithm and implementation  please visit my medium blog link here https://medium.com/analytics-vidhya/naive-bayes-algorithm-with-amazon-food-reviews-analysis-66bb59b66e62
 
+After applying Naive Bayes  algorithm to amazon food reviews data set we make below conclusions.
+
+### Conclusions
+
+![conclusion](https://miro.medium.com/max/465/1*g7VGRbn1qsMLtpMxaPzQfQ.png)
+
+1. Compare to Bag of words features representation, TFIDF features are got the highest 95.51% AUC score on Test data.
+2. Both are having 0.1 as the best alpha by Hyperparameter tuning.
+3. Both models have reasonably worked well for Amazon_food_reviews classification.
 
