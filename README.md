@@ -361,5 +361,23 @@ To Know detailed information about SVD  please visit [here](https://jonathan-hui
 
 ## Task 11. Amazon_Food_Reviews_Model_Deployment
 
+![Untitled](https://user-images.githubusercontent.com/67965686/101061971-1571d100-35b7-11eb-8136-1a7268e829b7.png)
+
+Building a machine learning project is one thing but what matters at the end is how you show your project to the world. Documenting your whole project on GitHub is another thing but deploying your deep learning model as a web application is totally different gameball.
+
+In order for Machine Learning Engineers to succeed at work, they need to build services such that other teams can use or a product where people can use it directly. Essentially, the goal is to provide a model as a service and for that there is a concept called API. API is the way for computer systems to talk to each other over Internet Protocols. They act as an agent which takes information from the user to the server and then again from server to the user giving back the answer. Flask provides that capability. Flask will act as an API between your model and the HTML file.
+
+We begin by creating a project folder where we define all dependencies in the requirements.txt file. To ensure that all dependencies are isolated from our application, we create a virtual environment for our working space.
+
+To deploy we want to train our model and save the outputs in a pickle file and these pickle files are used for predict the new reiews in production.
+
+### Steps
+
+- Create GitHub Repository (optional)
+- Create and Pickle a Model Using Titanic Data.
+- Create Flask App.
+- Test Flask App Locally (optional)
+- Deploy to Heroku.
+- Test Working App.
 
 
