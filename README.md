@@ -388,11 +388,11 @@ To deploy we want to train our model and save the outputs in a pickle file and t
 
 ###### Negative Reviews
 
-![Untitled](https://user-images.githubusercontent.com/67965686/101116315-dc634c00-360a-11eb-8a1a-89bc15feddb9.png)
+![Untitled](https://user-images.githubusercontent.com/67965686/101117332-c5bdf480-360c-11eb-8b9b-7f6090eb324d.png)
 
 I am deployed app in Heroku Platform to see visit [here](https://amazon-food-review-analyzer.herokuapp.com/)
 
-######### Thanks for reading and your patience. I hope you liked the post, let me know if there are any errors in my post.
+###### Thanks for reading and your patience. I hope you liked the post, let me know if there are any errors in my post.
 
 ### Contact
 
