@@ -397,13 +397,9 @@ I am deployed app in Heroku Platform to see visit [here](https://amazon-food-rev
 ### Contact
 
 [Email](sachin.s1dn@gmail.com)
-
 [Linkedln](https://www.linkedin.com/in/sachin-d-n-1st-8150351b2/)
-
 [Github](https://github.com/Sachin-D-N/Amazon_Food_Reviews)
-
 [Medium](https://sachin-s1dn.medium.com/)
-
 [Twitter](https://twitter.com/home)
 
 
