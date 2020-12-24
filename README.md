@@ -372,7 +372,7 @@ We begin by creating a project folder where we define all dependencies in the re
 To deploy we want to train our model and save the outputs in a pickle file and these pickle files are used for predict the new reiews in production.
 
 ### Steps
-
+ 
 - Create GitHub Repository (optional)
 - Create and Pickle a Model Using Titanic Data.
 - Create Flask App.
